@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <canvas id="branch-bg" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;"></canvas>
     <header>
-      <h1>Mergington High School</h1>
-      <h2>Extracurricular Activities</h2>
+      <div class="mascots">
+        <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" alt="Mascot 1" class="mascot" />
+        <img src="https://octodex.github.com/images/Professortocat_v2.png" alt="Mascot 2" class="mascot" />
+        <img src="https://octodex.github.com/images/nyantocat.gif" alt="Mascot 3" class="mascot" />
+      </div>
+      <h1 style="color:#222;">Mergington High School</h1>
+      <h2 style="color:#7bbf3f;">Extracurricular Activities</h2>
     </header>
 
     <main>
@@ -46,5 +52,6 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="branch-anim.js"></script>
   </body>
 </html>
